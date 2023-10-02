@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div lass="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+    <div class="gameRules">
+      <h1>How to Play Simon Game</h1>
+
+      <ol>
+        <li>
+          <h2>Start the Game:</h2>
+          <ul>
+            <li>press any key from keyboard to start the game.</li>
+          </ul>
+        </li>
+        <li>
+          <h2>Watch and Remember:</h2>
+          <ul>
+            <li>
+              Pay attention to the sequence of colors and sounds that light up.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Repeat the Sequence:</h2>
+          <ul>
+            <li>
+              After the sequence finishes, click or press the colors in the same
+              order as they appeared.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Advance Levels:</h2>
+          <ul>
+            <li>
+              As you correctly repeat the sequences, the game will add more
+              colors, making it progressively challenging.
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <p>
+        Remember, the goal is to see how far you can go without making a
+        mistake! Good luck!
+      </p>
+      <footer>
+        <p>&copy; 2023 Simon Game</p>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
