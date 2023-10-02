@@ -1,7 +1,8 @@
 let Level = 0;
 
-$(document).keypress(function () {
+$("#start").click(function () {
   if (Level == 0) {
+    $("#start").hide();
     nextSequence();
   }
 });
@@ -45,6 +46,7 @@ function checkAnswer(currentLevel) {
     }, 200);
     document.getElementById("level-title").innerHTML =
       "Game Over, Press Any Key to Restart";
+    $("#start").show();
   }
 }
 
